@@ -1,0 +1,60 @@
+/* The code you provided is a CSS stylesheet containing various styling rules for different elements
+and classes. Here's a breakdown of what each part of the code is doing: */
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.punteado{
+    border-style: dotted;
+}
+
+.discontinuo{
+    border-style: dashed;
+}
+
+.solido{
+    border: 10px solid red;
+}
+
+.doble{
+    border: 10px double blue;
+}
+
+.surco{
+    border: 10px groove;
+    /* border-width: 10px;
+    border-style: 10px; */
+}
+
+.cresta{
+    border: 10px ridge;
+}
+
+.recuadro{
+    border: 10px inset;
+}
+
+.recuadro_inverso{
+    border: 10px outset;
+}
+
+.sin_borde{
+    border: none;
+}
+
+.oculto{
+    border: hidden;
+}
+
+.mixto{
+    border-style: dotted solid dashed double;
+}
+
+.mixto2{
+    border-style: solid dotted double dashed;
+}

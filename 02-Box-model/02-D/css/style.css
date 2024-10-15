@@ -1,0 +1,43 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+    color: #e63946;
+}
+
+div{
+          /* top  right bottom left */
+    padding: 10px 15px 5px 3px;
+    border: 1px solid #457b9b;
+    margin: 30px;
+    background-color: #f1faee;
+    max-width: 300px;
+    
+    /* outline: 10px solid #a8dadc;
+    outline-offset: 10px; */
+    /* ---- */
+    /* outline-offset: 10px; solo permite asinar un valor para todos sus lados */
+    box-sizing: border-box;
+}
+
+
+.caja2{
+    /* top  right bottom left */
+padding: 10px 15px 5px 3px;
+border: 1px solid #457b9b;
+margin: 20px;
+background-color: #f1faee;
+max-width: 300px;
+box-sizing: border-box;
+}
+
+/* The CSS rule `p.interno{ margin-left: inherit; }` is targeting paragraphs with the class "interno"
+and setting the left margin to inherit from its parent element. */
+/* p.interno{
+    margin-left: inherit;
+} */
+
+

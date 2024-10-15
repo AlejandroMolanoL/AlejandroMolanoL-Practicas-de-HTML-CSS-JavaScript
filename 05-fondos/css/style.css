@@ -1,0 +1,14 @@
+body{
+    background: dodgerblue;
+    color:cornsilk;
+    background-image: url("/05-fondos/img/fondo.png");
+    background-repeat: no-repeat;
+    /* permite selecionar la cantidad de veces que se repite la imagen */
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+h1{
+  text-align: center;
+  background-color: dodgerblue;
+}

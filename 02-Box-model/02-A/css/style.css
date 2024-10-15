@@ -1,0 +1,35 @@
+/* `Listas de colores html https://htmlcolorcodes.com/color-names/` is a reference to a website that
+provides a list of color names along with their corresponding hexadecimal color codes. This can be
+helpful when selecting colors for styling elements in HTML and CSS. */
+
+h1{
+    text-align: center;
+}
+
+.rojo{
+    border: 10px solid firebrick;
+    text-align: center;
+    /* background-color: firebrick; */
+}
+
+.rosa{
+    border: 10px dashed rgb(255, 105, 180);
+    text-align: center;
+    /* background-color: hotpink; */
+}
+
+.amarillo{
+    border: 10px double #ffd700;
+    text-align: center;
+    /* background-color: gold; */
+}
+
+.azul{
+    border: 10px dotted hsl(174, 72%, 56%);
+    text-align: center;
+    /* background-color: turquoise; */
+}
+
+/* .rosa, .morado, .azul{
+    color: white;
+} */
