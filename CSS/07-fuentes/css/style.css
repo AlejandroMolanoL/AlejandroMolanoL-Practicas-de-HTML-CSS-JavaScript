@@ -1,12 +1,16 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap'); */
 
+@import url('https://fonts.googleapis.com/css?family=Rancho&&effect=shadow-multiple|3d-float|anaglyph|fire-animation|neon');
+
+
+/* Effectos fuente de Google Fonts https://developers.google.com/fonts/docs/getting_started?hl=es-419 */
 
 h1{
-  color: #ef476f;
+  color: rgb(38, 247, 38);
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Sofia', cursive;
+  font-family: 'Rancho', serif;
   text-shadow: 3px 3px 3px #ced4da;
 }
 
@@ -80,4 +84,16 @@ h1{
 
 .fuente-sofia{
   font-family: 'Sofia', cursive;
+}
+
+.fuente_roboto{
+  /*
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: small-caps;
+  font-size: 20px;
+  */
+  /*font: font-style font-variant font-weight *font-size/line-heigth *font-family;*/
+  font: italic small-caps bolder 20px Roboto, sans-serif; 
 }
